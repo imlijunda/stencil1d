@@ -18,5 +18,5 @@ a numeric vector of finite difference coefficients corresponding to stencil poin
 Calculate finite difference coefficients at artificial stencil points
 }
 \examples{
-coefs <- fd_coefs(-3:3, 2)
+coefs <- fd_coefs(2, -3:3)
 }

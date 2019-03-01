@@ -7,7 +7,7 @@
 #' @export
 #'
 #' @examples
-#' coefs <- fd_coefs(-3:3, 2)
+#' coefs <- fd_coefs(2, -3:3)
 fd_coefs <- function(order, stencil) {
 
   S <- t(sapply(seq.int(0L, length(stencil) - 1L), function(n) stencil^n))
