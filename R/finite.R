@@ -23,5 +23,5 @@ finite_diff <- function(f, x, order, stencil, h = 1.0) {
     })
   }
 
-  sum(sampled) / h^2.0
+  sum(sampled) / h^order
 }
